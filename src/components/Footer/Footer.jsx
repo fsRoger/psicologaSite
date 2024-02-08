@@ -13,7 +13,7 @@ const Footer = () => {
         <GoogleMap className="border rounded-lg" />
       </div>
       <div>
-        <h1 className=" text-xl md:text-3xl m-6 font-bold text-gray-700 pt-10">Camila Takayama</h1>
+        <h1 className=" text-xl md:text-3xl m-6 font-bold text-[#980838] pt-10">Camila Takayama</h1>
       </div>
       {/* footer icons */}
       <div className="bg-[#98b598]">

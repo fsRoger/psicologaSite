@@ -33,7 +33,7 @@ const Skills = () => {
         <div className="container">
           <div className=" grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-2 md:gap-4">
             {skillsData.map((skill) => (
-              <div key={skill} className=" card group space-y-3 p-4 rounded-md bg-[#384538] hover:bg-[#773333] duration-300 transition-all text-white shadow-md">
+              <div key={skill} className=" card group space-y-3 p-4 rounded-md bg-[#384538] hover:bg-rose-950 duration-300 transition-all text-white shadow-md">
                 <div>{skill.icon}</div>
                 <h1 className="text-2xl font-bold">{skill.name}</h1>
                 <p>{skill.description}</p>

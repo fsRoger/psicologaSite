@@ -43,7 +43,7 @@ const Navbar = () => {
                 <li key={id}>
                   <a
                     href={link}
-                    className="inline-block text-lg font-medium py-3 hover:text-red-600 duration-500"
+                    className="inline-block text-lg font-medium py-3 hover:text-[#980838] duration-500 transition-all"
                   >
                     {name}
                   </a>
